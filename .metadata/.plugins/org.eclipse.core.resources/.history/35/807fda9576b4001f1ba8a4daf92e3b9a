@@ -1,0 +1,6 @@
+spring.application.name=CourseManagmentSystem
+
+
+server.port=9090
+
+

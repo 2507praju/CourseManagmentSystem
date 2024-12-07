@@ -1,0 +1,19 @@
+package com.cjc.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cjc.model.Course;
+
+@RestController
+public class CourseController {
+	
+	@PostMapping("/add")
+	public ResponseEntity<Course> AddCourse(@RequestBody Couser c){
+		Course c=cs.AddCouser()
+		return new  ResponseEntity<Course>
+	}
+
+}

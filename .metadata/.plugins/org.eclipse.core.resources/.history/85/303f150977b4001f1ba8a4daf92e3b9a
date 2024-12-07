@@ -1,0 +1,7 @@
+package com.cjc.serviceimpl;
+
+import com.cjc.servicei.CourseServiceI;
+
+public class CourseServiceImpl implements CourseServiceI {
+
+}

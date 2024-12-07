@@ -1,0 +1,26 @@
+package com.cjc.serviceimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.cjc.model.Course;
+import com.cjc.repository.CourseRepo;
+import com.cjc.servicei.CourseServiceI;
+
+public class CourseServiceImpl implements CourseServiceI {
+	
+	@Autowired
+	CourseRepo cr;
+
+	@Override
+	public Course AddCouser(Course c) {
+		
+		return cr.save(c);
+	}
+
+	@Override
+	public Course GetAllData() {
+		
+		return cr.findAll();
+	}
+
+}

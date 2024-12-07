@@ -1,0 +1,5 @@
+package com.cjc.repository;
+@Respository
+public interface CourseRepo {
+
+}
